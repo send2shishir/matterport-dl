@@ -1,0 +1,193 @@
+{
+  "errors" : [ {
+    "message" : "Error fetching data (path: /model/organization, code: request.unauthorized): Unauthorized",
+    "locations" : [ {
+      "line" : 5,
+      "column" : 5
+    } ],
+    "path" : [ "model", "organization" ],
+    "extensions" : {
+      "code" : "request.unauthorized",
+      "retry" : "false",
+      "classification" : "DataFetchingException"
+    }
+  }, {
+    "message" : "Error fetching data (path: /model/visibility, code: request.unauthorized): Unauthorized",
+    "locations" : [ {
+      "line" : 6,
+      "column" : 5
+    } ],
+    "path" : [ "model", "visibility" ],
+    "extensions" : {
+      "code" : "request.unauthorized",
+      "retry" : "false",
+      "classification" : "DataFetchingException"
+    }
+  }, {
+    "message" : "Error fetching data (path: /model/created, code: request.unauthorized): Unauthorized",
+    "locations" : [ {
+      "line" : 8,
+      "column" : 5
+    } ],
+    "path" : [ "model", "created" ],
+    "extensions" : {
+      "code" : "request.unauthorized",
+      "retry" : "false",
+      "classification" : "DataFetchingException"
+    }
+  }, {
+    "message" : "Error fetching data (path: /model/state, code: request.unauthorized): Unauthorized",
+    "locations" : [ {
+      "line" : 28,
+      "column" : 3
+    } ],
+    "path" : [ "model", "state" ],
+    "extensions" : {
+      "code" : "request.unauthorized",
+      "retry" : "false",
+      "classification" : "DataFetchingException"
+    }
+  } ],
+  "data" : {
+    "model" : {
+      "id" : "vsHCi2Y8hSc",
+      "name" : "9383 Skyline Blvd",
+      "organization" : null,
+      "visibility" : null,
+      "discoverable" : false,
+      "created" : null,
+      "state" : null,
+      "__typename" : "Model",
+      "image" : {
+        "id" : "r515FvsJeqm",
+        "label" : "08.10.2022_00.17.45",
+        "classification" : null,
+        "category" : "snapshot",
+        "height" : 2438,
+        "width" : 4334,
+        "created" : "2022-08-09T16:17:47Z",
+        "modified" : "2022-08-09T16:17:47Z",
+        "status" : "available",
+        "filename" : null,
+        "format" : "image",
+        "url" : "http://127.0.0.1:8080/apifs/models/vsHCi2Y8hSc/images/r515FvsJeqm/08.10.2022_00.17.45.jpg?t=2-4a6c83c94801acf193a99c57ec1798d720c2b10e-1667727499-1",
+        "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+        "type" : "photo2D",
+        "origin" : "user",
+        "validUntil":"2099-01-01T09:38:19Z",
+        "thumbnailUrl" : "http://127.0.0.1:8080/apifs/models/vsHCi2Y8hSc/images/r515FvsJeqm/08.10.2022_00.17.45.jpg?t=2-4a6c83c94801acf193a99c57ec1798d720c2b10e-1667727499-1&width=200&height=140&fit=crop&disable=upscale",
+        "presentationUrl" : "http://127.0.0.1:8080/apifs/models/vsHCi2Y8hSc/images/r515FvsJeqm/08.10.2022_00.17.45.jpg?t=2-4a6c83c94801acf193a99c57ec1798d720c2b10e-1667727499-1&width=1920&height=1080&fit=crop&disable=upscale",
+        "snapshotLocation" : {
+          "viewMode" : "panorama",
+          "position" : {
+            "x" : -6.613636016845703,
+            "y" : 3.025132179260254,
+            "z" : 3.911280632019043,
+            "__typename" : "Point"
+          },
+          "rotation" : {
+            "x" : 0.6536346978068058,
+            "y" : 0.30012696372415126,
+            "z" : -0.28990773595181174,
+            "w" : -0.6313786439890913,
+            "__typename" : "Quaternion"
+          },
+          "zoom" : 0.7,
+          "floorVisibility" : [ {
+            "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+            "meshId" : 1,
+            "sequence" : 1,
+            "__typename" : "ModelFloor"
+          } ],
+          "anchor" : {
+            "id" : "hbx29ce6rfyxuua2u7r94btaa",
+            "pano" : {
+              "id" : "hbx29ce6rfyxuua2u7r94btaa",
+              "placement" : "auto",
+              "__typename" : "PanoramicImageLocation"
+            },
+            "__typename" : "AnchorLocation"
+          },
+          "__typename" : "SnapshotLocation"
+        },
+        "__typename" : "Photo"
+      },
+      "publication" : {
+        "address" : null,
+        "published" : true,
+        "lastPublished" : "2022-08-09T20:00:07Z",
+        "presentedBy" : "Aerial Canvas",
+        "summary" : "",
+        "externalUrl" : null,
+        "contact" : {
+          "name" : "",
+          "email" : "",
+          "phoneNumber" : null,
+          "__typename" : "ModelContact"
+        },
+        "__typename" : "ModelPublicationDetails"
+      },
+      "options" : {
+        "backgroundColor" : "black",
+        "dollhouseEnabled" : true,
+        "dollhouseLabelsEnabled" : true,
+        "floorSelectEnabled" : true,
+        "floorplanEnabled" : true,
+        "highlightReelEnabled" : true,
+        "labelsEnabled" : true,
+        "measurements" : "measureAndView",
+        "socialSharingEnabled" : true,
+        "spaceSearchEnabled" : true,
+        "tourButtonsEnabled" : true,
+        "tourDollhousePanSpeed" : 2,
+        "tourFastTransitionsEnabled" : true,
+        "tourPanAngle" : 35,
+        "tourPanDirection" : "auto",
+        "tourPanSpeed" : 10,
+        "tourTransitionSpeed" : 1250,
+        "tourTransitionTime" : 600,
+        "tourZoomDuration" : 3500,
+        "unitType" : "imperial",
+        "vrEnabled" : true,
+        "__typename" : "ModelOptions"
+      },
+      "assets" : {
+        "meshes" : [ {
+          "id" : "meshes/97cquugg29bi38s1gud8tpi5b",
+          "status" : "available",
+          "filename" : "e520c5bdf4aa4c20866c84330216b062_50k.dam",
+          "format" : "dam",
+          "resolution" : "50k",
+          "url" : "http://127.0.0.1:8080/models/cfa1945352e140db8f52f4bff896e6db/assets/e520c5bdf4aa4c20866c84330216b062_50k.dam?t=2-70cfe1d8f2b3e768dba3bc4fdfe2f2a2e4592456-1667727499-1",
+          "validUntil":"2099-01-01T09:38:19Z",
+          "__typename" : "Mesh"
+        } ],
+        "textures" : [ {
+          "id" : "50k-high",
+          "status" : "available",
+          "format" : "jpg",
+          "resolution" : "50k",
+          "quality" : "high",
+          "urlTemplate" : "http://127.0.0.1:8080/models/cfa1945352e140db8f52f4bff896e6db/assets/~/e520c5bdf4aa4c20866c84330216b062_50k_texture_jpg_high/e520c5bdf4aa4c20866c84330216b062_50k_<texture>.jpg?t=2-81a98042c3312c50ec1a34528eb91ad54d87436c-1667727499-0&k=models%2Fcfa1945352e140db8f52f4bff896e6db%2Fassets",
+          "validUntil":"2099-01-01T09:38:19Z",
+          "__typename" : "Texture"
+        }, {
+          "id" : "50k-low",
+          "status" : "available",
+          "format" : "jpg",
+          "resolution" : "50k",
+          "quality" : "low",
+          "urlTemplate" : "http://127.0.0.1:8080/models/cfa1945352e140db8f52f4bff896e6db/assets/~/e520c5bdf4aa4c20866c84330216b062_50k_texture_jpg_low/e520c5bdf4aa4c20866c84330216b062_50k_<texture>.jpg?t=2-81a98042c3312c50ec1a34528eb91ad54d87436c-1667727499-0&k=models%2Fcfa1945352e140db8f52f4bff896e6db%2Fassets",
+          "validUntil":"2099-01-01T09:38:19Z",
+          "__typename" : "Texture"
+        } ],
+        "tilesets" : [ ],
+        "__typename" : "ModelAssets"
+      },
+      "lod" : {
+        "options" : [ "lod2" ],
+        "__typename" : "PolicyOptions"
+      }
+    }
+  }
+}

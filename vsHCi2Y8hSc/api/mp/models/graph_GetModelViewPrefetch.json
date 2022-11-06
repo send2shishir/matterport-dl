@@ -1,0 +1,117 @@
+{
+  "errors" : [ {
+    "message" : "Error fetching data (path: /model/notes, code: request.unauthorized): Unauthorized",
+    "locations" : [ {
+      "line" : 24,
+      "column" : 5
+    } ],
+    "path" : [ "model", "notes" ],
+    "extensions" : {
+      "code" : "request.unauthorized",
+      "retry" : "false",
+      "classification" : "DataFetchingException"
+    }
+  } ],
+  "data" : {
+    "model" : {
+      "id" : "vsHCi2Y8hSc",
+      "mattertags" : [ {
+        "id" : "Zeh5hT1WgSj",
+        "label" : "",
+        "description" : "[Separate Guest Suite](https://my.matterport.com/show/?m=9k5qCEQ3gma)\n",
+        "color" : "#03687d",
+        "enabled" : true,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0,
+          "__typename" : "ModelFloor"
+        },
+        "room" : null,
+        "anchorPosition" : {
+          "x" : -4.244680993535178,
+          "y" : 0.4759674399602819,
+          "z" : 0.9365953641426914,
+          "__typename" : "Point"
+        },
+        "stemEnabled" : true,
+        "stemNormal" : {
+          "x" : -0.008269296706557662,
+          "y" : 0.9999534524084592,
+          "z" : 0.0049710912667323545,
+          "__typename" : "Point"
+        },
+        "stemLength" : 0.3048,
+        "media" : null,
+        "mediaType" : null,
+        "created" : "2022-08-09T19:38:49Z",
+        "modified" : "2022-08-09T19:59:57Z",
+        "externalAttachments" : [ ],
+        "fileAttachments" : [ ],
+        "objectAnnotation" : null,
+        "keywords" : [ ],
+        "icon" : null,
+        "__typename" : "Mattertag"
+      } ],
+      "orderedLists" : [ ],
+      "labels" : [ ],
+      "measurementPaths" : [ ],
+      "activeHighlightReel" : null,
+      "notes" : null,
+      "image" : {
+        "id" : "r515FvsJeqm",
+        "label" : "08.10.2022_00.17.45",
+        "classification" : null,
+        "category" : "snapshot",
+        "height" : 2438,
+        "width" : 4334,
+        "created" : "2022-08-09T16:17:47Z",
+        "modified" : "2022-08-09T16:17:47Z",
+        "status" : "available",
+        "filename" : null,
+        "format" : "image",
+        "url" : "http://127.0.0.1:8080/apifs/models/vsHCi2Y8hSc/images/r515FvsJeqm/08.10.2022_00.17.45.jpg?t=2-94577819eda93866a8131781493de9604f74dedc-1667727501-1",
+        "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+        "type" : "photo2D",
+        "origin" : "user",
+        "validUntil":"2099-01-01T09:38:21Z",
+        "thumbnailUrl" : "http://127.0.0.1:8080/apifs/models/vsHCi2Y8hSc/images/r515FvsJeqm/08.10.2022_00.17.45.jpg?t=2-94577819eda93866a8131781493de9604f74dedc-1667727501-1&width=200&height=140&fit=crop&disable=upscale",
+        "presentationUrl" : "http://127.0.0.1:8080/apifs/models/vsHCi2Y8hSc/images/r515FvsJeqm/08.10.2022_00.17.45.jpg?t=2-94577819eda93866a8131781493de9604f74dedc-1667727501-1&width=1920&height=1080&fit=crop&disable=upscale",
+        "snapshotLocation" : {
+          "viewMode" : "panorama",
+          "position" : {
+            "x" : -6.613636016845703,
+            "y" : 3.025132179260254,
+            "z" : 3.911280632019043,
+            "__typename" : "Point"
+          },
+          "rotation" : {
+            "x" : 0.6536346978068058,
+            "y" : 0.30012696372415126,
+            "z" : -0.28990773595181174,
+            "w" : -0.6313786439890913,
+            "__typename" : "Quaternion"
+          },
+          "zoom" : 0.7,
+          "floorVisibility" : [ {
+            "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+            "meshId" : 1,
+            "sequence" : 1,
+            "__typename" : "ModelFloor"
+          } ],
+          "anchor" : {
+            "id" : "hbx29ce6rfyxuua2u7r94btaa",
+            "pano" : {
+              "id" : "hbx29ce6rfyxuua2u7r94btaa",
+              "placement" : "auto",
+              "__typename" : "PanoramicImageLocation"
+            },
+            "__typename" : "AnchorLocation"
+          },
+          "__typename" : "SnapshotLocation"
+        },
+        "__typename" : "Photo"
+      },
+      "__typename" : "Model"
+    }
+  }
+}

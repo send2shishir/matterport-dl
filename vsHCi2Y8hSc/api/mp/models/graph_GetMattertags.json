@@ -1,0 +1,40 @@
+{
+  "data" : {
+    "model" : {
+      "id" : "vsHCi2Y8hSc",
+      "mattertags" : [ {
+        "id" : "Zeh5hT1WgSj",
+        "label" : "",
+        "description" : "[Separate Guest Suite](https://my.matterport.com/show/?m=9k5qCEQ3gma)\n",
+        "color" : "#03687d",
+        "enabled" : true,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0,
+          "__typename" : "ModelFloor"
+        },
+        "room" : null,
+        "anchorPosition" : {
+          "x" : -4.244680993535178,
+          "y" : 0.4759674399602819,
+          "z" : 0.9365953641426914,
+          "__typename" : "Point"
+        },
+        "stemEnabled" : true,
+        "stemNormal" : {
+          "x" : -0.008269296706557662,
+          "y" : 0.9999534524084592,
+          "z" : 0.0049710912667323545,
+          "__typename" : "Point"
+        },
+        "stemLength" : 0.3048,
+        "media" : null,
+        "mediaType" : null,
+        "created" : "2022-08-09T19:38:49Z",
+        "modified" : "2022-08-09T19:59:57Z",
+        "__typename" : "Mattertag"
+      } ],
+      "__typename" : "Model"
+    }
+  }
+}
